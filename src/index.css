@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    width: 100% !important;
+    padding: 10px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .nav, .navbar {
+    flex-direction: column !important;
+    align-items: flex-start;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2, h3 {
+    font-size: 90%;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  input, select, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
